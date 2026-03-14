@@ -21,5 +21,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "demo" {
   name     = "terraform-demo-rg"
-  location = "Central India"
+  location = "Central India" 
 }
