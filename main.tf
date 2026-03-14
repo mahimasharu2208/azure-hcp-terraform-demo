@@ -3,7 +3,7 @@ terraform {
     organization = "mahima-test"
 
     workspaces {
-      name = "azure-demo-workspace"
+      name = "azure-hcp-terraform-demo"
     }
   }
 
