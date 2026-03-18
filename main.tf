@@ -24,6 +24,6 @@ removed {
   from = azurerm_resource_group.demo
 
   lifecycle {
-    destroy = false
+    destroy = true
   }
 }
