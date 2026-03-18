@@ -23,3 +23,11 @@ resource "azurerm_resource_group" "demo" {
   name     = "terraform-demo-rg"
   location = "Central India" 
 }
+
+removed {
+  from = azurerm_resource_group.demo
+
+  lifecycle {
+    destroy = false
+  }
+}
